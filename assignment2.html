@@ -10,13 +10,13 @@
 <body>
     <!-- navbar section -->
     <nav>
-        <div class="flex justify-between items-center px-4 md:px-16 lg:px-32 py-4 bg-gray-500 text-white">
+        <div class="flex justify-between h-[10vh] items-center px-8 md:px-16 lg:px-32 py-2">
             <img class="md:w-20 w-16" src="assets/logo.png" alt="Logo">
             <div class="flex justify-between items-center space-x-4">
                 <ul class="hidden sm:flex space-x-4">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About us</a></li>
+                    <li class="text-gray-500 font-semibold hover:text-gray-950"><a href="#">Home</a></li>
+                    <li class="text-gray-500 font-semibold hover:text-gray-950"><a href="#">Shop</a></li>
+                    <li class="text-gray-500 font-semibold hover:text-gray-950"><a href="#">About us</a></li>
                 </ul>
                 <div class="flex items-center gap-2">
                     <img 
@@ -27,5 +27,24 @@
             </div>
         </div>
     </nav>
+
+    <!-- hero section -->
+     <section class="px-8 md:px-16 lg:px-32 mt-4 md:mt-8">
+        <div class="flex h-[80vh] w-full flex-col-reverse md:flex-row gap-5 md:gap-10">
+            <!-- left div -->
+        <div class="flex flex-col justify-center items-start w-full md:w-1/2 space-y-4">
+            <h1 class="text-2xl md:text-4xl lg:text-6xl font-bold text-gray-800">
+                ALWAYS <span class="text-[#E95A08]">FRESH <br/> FLOWERS</span>
+            </h1>
+            <p class="text-gray-700 text-sm md:text-base lg:text-lg">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+            </p>
+        </div>
+        <!-- right div -->
+        <div class="flex justify-center items-center w-full md:w-1/2">
+            <img src="assets/hero-flower.png" alt="">
+        </div>
+        </div>
+     </section>
 </body>
 </html>
